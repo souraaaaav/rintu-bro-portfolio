@@ -5,8 +5,7 @@ import ImageSlider from './ImageSlider/ImageSlider'
 import { SliderData } from './ImageSlider/SliderData'
 import './Main.css'
 import Portfolio from './Portfolio/Portfolio'
-import Qualification from './Qualification/Qualification'
-import Skills from './Skills/Skills'
+
 
 const Main = props => {
 
@@ -19,17 +18,7 @@ const Main = props => {
 
             <About />
 
-            <Skills />
-
-            <Qualification />
-
-
-
             <Portfolio />
-
-            {/* <ProjectInMind /> */}
-
-            {/* <Testimonial /> */}
 
             <ContactMe />
 
